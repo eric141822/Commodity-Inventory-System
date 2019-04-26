@@ -23,5 +23,6 @@ void policy (vector<item> &item);
 void get_item_list (string filename, vector<item> &item);
 void write_list (string output_name, vector<item> &item);
 void search (vector<item> &item);
+void new_entry(vector<item> &item);
 
 #endif
