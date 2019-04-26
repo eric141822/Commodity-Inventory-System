@@ -3,8 +3,7 @@
 #include <iomanip>
 #include <fstream>
 #include <vector>
-#include "item.h"
-#include "output.h"
+#include "functions.h"
 using namespace std;
 
 void write_list (string output_name, vector<item> &item)
