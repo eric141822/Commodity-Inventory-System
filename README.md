@@ -59,7 +59,7 @@ The formats of input and output file are the same. The item list will provide ba
 ## Compilation and Execution Instructions
 Despite the fact that we only have 9 source files, which is considered pretty easy for a normal computer in terms of the compilation time, we still utilize “makefile” to do separate compilation so as to allow future addition of function and to better logically understand relationship in between functions (source files). Our compilation of the system works like this: First, each c++ function (i.e. main,  access_stock, auto_update, best_selling, input, output, search_func, new_entry) and a header file **functions.h** will be compiled into respective object codes. Secondly, the objects will be linked together and generate the final executable **system**. Lastly, let the **make** tool do its thing in the terminal, activated by the following shell command.
 
-  $ make system
+####    $ make system
  
 After the executable **system** is generated, we can use the ./system shell command to run the program. Please refer to the functionalities and feature section to look for further choice of functions.   
  
