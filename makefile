@@ -14,6 +14,7 @@ output.o:output.cpp output.h item.h
 	g++ -c output.cpp
 
 search_func.o:search_func.cpp search.h item.h
+	g++ -c search_func.cpp
 
 main.o:main.cpp item.h access_stock.h autoupdate.h bestselling.h input.h output.h search.h
 	g++ -c main.cpp
