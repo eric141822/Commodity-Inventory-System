@@ -6,6 +6,7 @@
 #include "functions.h"
 using namespace std;
 
+//This program outputs the current info of the item list.
 void access(vector<item> &item){
   for (int i = 0; i < item.size(); i++){
     cout<<left;
