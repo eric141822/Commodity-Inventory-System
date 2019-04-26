@@ -1,0 +1,18 @@
+Chips in-stock 30 20.0 7-11 3
+Raspberry nearly-out-of-stock 14 46.5 CircleK 2
+Coke nearly-out-of-stock 10 15.0 FamilyMart 2
+Sugar out-of-stock 0 30.0 CircleK 1
+Salt in-stock 45 33.0 Welcome 1
+Tissue out-of-stock 0 167.0 Fusion 1
+Mango in-stock 30 2.0 FamilyMart 3
+Bread in-stock 22 10.0 7-11 1
+Banana in-stock 24 4.0 7-11 5
+Potato in-stock 25 8.0 Fusion 2
+Kiwi in-stock 36 14.5 Fusion 1
+Onion in-stock 34 5.0 Welcome 1
+Corn in-stock 22 4.0 FamilyMart 4
+Eggplant nearly-out-of-stock 13 30.0 Welcome 0
+Ginger in-stock 21 2.5 Welcome 2
+Syrup in-stock 28 24.5 CircleK 2
+Cupcake out-of-stock 0 10.0 FamilyMart 1
+
