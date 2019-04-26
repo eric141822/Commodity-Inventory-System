@@ -2,7 +2,9 @@
 #include <string>
 #include <fstream>
 #include <vector>
+#include <iomanip>
 #include "functions.h"
+using namespace std;
 int main(){
   vector<item> item_list;
   cout<<"Welcome to the commodity management system!\nPlease enter the name of the item list: ";
@@ -11,7 +13,7 @@ int main(){
   get_item_list(list_name, item_list);
   cout<<"Here is the list of items:\n";
   access(item_list);
-  cout<<"Please choose one of the functions.\n1. Search, 2. Access stock, 3. output stock to file, 4. best sellings \n(Enter -999 to end system):";
+  cout<<"Please choose one of the functions.\n1. Search, 2. Access stock, 3. output stock to file, 4. best sellings, 5. input new entry \n(Enter -999 to end system):";
   int c;
   cin>>c;
   while (c != (-999)){
@@ -30,12 +32,16 @@ int main(){
     else if (c == 4){
       policy(item_list);
     }
+    else if (c == 5){
+      new_entry(item_list);
+    }
     else{
       cout<<"Invalid input, input again after auto update.\n";
     }
     auto_update(item_list);
-    cout<<"Please choose a function again.\n1. Search, 2. Access stock, 3. output stock to file, 4. best sellings \n(Enter -999 to end system):";
+    cout<<"Please choose a function again.\n1. Search, 2. Access stock, 3. output stock to file, 4. best sellings, 5. input new entry \n(Enter -999 to end system):";
     cin>>c;
   }
   cout<<"Shutting system down.\nGoodbye!\n";
 }
+
