@@ -7,7 +7,7 @@
 #include <iostream>
 #include <iomanip>
 using namespace std;
-
+//Delcares the structure item, and all the functions.
 struct item{
   string name;
   string flag;
