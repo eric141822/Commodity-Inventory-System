@@ -3,8 +3,7 @@
 #include <iomanip>
 #include <fstream>
 #include <vector>
-#include "item.h"
-#include "bestselling.h"
+#include "functions.h"
 using namespace std;
 void policy (vector<item> &item)
 {
