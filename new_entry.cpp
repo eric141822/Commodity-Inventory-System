@@ -7,8 +7,8 @@
 using namespace std;
 
 void new_entry(vector<item> &items){
-  cout<<"Please type in the form of:"<<'\n';
-  cout<<"name availability amount price retailer"<<'\n';
+  cout<<"Please type in the form of:\n";
+  cout<<"Name, Availability, Amount, Price, Retailer: ";
   item temp;
   bool new_item=true;
   cin>>temp.name>>temp.flag>>temp.stock>>temp.price>>temp.shops;
@@ -16,11 +16,11 @@ void new_entry(vector<item> &items){
   for (int i = 0; i<items.size(); i++){
     if (items[i].name==temp.name&&items[i].shops==temp.shops){
       //replace the original with temp
-      items[i]=temp;
+      items[i] = temp;
       new_item=false;//it's an existing item just updated
     }
   }
-  if (new_item==true){
+  if (new_item == true){
     items.push_back(temp);
   }
 }
