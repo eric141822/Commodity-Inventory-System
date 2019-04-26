@@ -16,14 +16,17 @@ output.o:output.cpp functions.h
 search_func.o:search_func.cpp functions.h
 	g++ -c search_func.cpp
 
+new_entry.o:new_entry.cpp functions.h
+	g++ -c new_entry.cpp
+
 main.o:main.cpp functions.h
 	g++ -c main.cpp
 
-system:main.o access_stock.o auto_update.o best_selling.o input.o output.o search_func.o
+system:main.o access_stock.o auto_update.o best_selling.o input.o output.o search_func.o new_entry.o
 	g++ $^ -o $@
 
 clean:
-	rm system main.o search_func.o output.o input.o best_selling.o auto_update.o access_stock.o
+	rm system main.o search_func.o output.o input.o best_selling.o auto_update.o access_stock.o new_entry.o
 
 tar:
 	tar -czvf system.tgz *.cpp *.h
