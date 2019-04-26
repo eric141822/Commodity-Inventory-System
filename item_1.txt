@@ -1,0 +1,3 @@
+Cookie in-stock 30 20.0 7-11 3
+Soda nearly-out-of-stock 10 15.0 FamilyMart 2
+Apple out-of-stock 0 30.0 CircleK 1
