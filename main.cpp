@@ -2,14 +2,7 @@
 #include <string>
 #include <fstream>
 #include <vector>
-#include "item.h"
-#include "access_stock.h"
-#include "autoupdate.h"
-#include "bestselling.h"
-#include "input.h"
-#include "output.h"
-#include "search.h"
-using namespace std;
+#include "functions.h"
 int main(){
   vector<item> item_list;
   cout<<"Welcome to the commodity management system!\nPlease enter the name of the item list: ";
