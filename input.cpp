@@ -3,8 +3,7 @@
 #include <iomanip>
 #include <fstream>
 #include <vector>
-#include "input.h"
-#include "item.h"
+#include "functions.h"
 using namespace std;
 void get_item_list (string filename, vector<item> &items)
 {
