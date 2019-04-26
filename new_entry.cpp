@@ -8,7 +8,7 @@ using namespace std;
 
 void new_entry(vector<item> &items){
   cout<<"Please type in the form of:\n";
-  cout<<"Name, Availability, Amount, Price, Retailer: ";
+  cout<<"Name, Availability, Amount, Price, Retailer:\n";
   item temp;
   bool new_item=true;
   cin>>temp.name>>temp.flag>>temp.stock>>temp.price>>temp.shops;
