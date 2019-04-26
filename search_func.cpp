@@ -3,8 +3,7 @@
 #include <iomanip>
 #include <fstream>
 #include <vector>
-#include "item.h"
-#include "search.h"
+#include "functions.h"
 using namespace std;
 void search (vector<item> &item)
 {
