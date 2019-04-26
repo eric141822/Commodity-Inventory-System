@@ -1,0 +1,9 @@
+Cookie in-stock 30 20.0 7-11 3
+Tofu nearly-out-of-stock 14 46.5 CircleK 2
+Soda nearly-out-of-stock 10 15.0 FamilyMart 2
+Apple out-of-stock 0 30.0 CircleK 1
+Milk in-stock 45 33.0 Welcome 1
+Whiskey out-of-stock 0 167.0 Fusion 1
+Candy in-stock 30 2.0 FamilyMart 3
+Yogurt in-stock 22 10.0 7-11 1
+
