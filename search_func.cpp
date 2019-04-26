@@ -19,7 +19,8 @@ void search (vector<item> &item)
       {
         if (item[i].flag == "out-of-stock")
         {
-          cout<<item[i].name<<"     "<<item[i].flag<<"     "<<item[i].stock<<"     "<<item[i].price<<"     "<<item[i].shops<<'\n';
+          cout<<left;
+          cout<<setw(10)<<item[i].name<<setw(20)<<item[i].flag<<setw(5)<<item[i].stock<<setw(5)<<item[i].price<<setw(10)<<item[i].shops<<'\n';
         }
       }
     }
@@ -29,7 +30,8 @@ void search (vector<item> &item)
       {
         if (item[i].flag == "nearly-out-of-stock")
         {
-          cout<<item[i].name<<"     "<<item[i].flag<<"     "<<item[i].stock<<"     "<<item[i].price<<"     "<<item[i].shops<<'\n';
+          cout<<left;
+          cout<<setw(10)<<item[i].name<<setw(20)<<item[i].flag<<setw(5)<<item[i].stock<<setw(5)<<item[i].price<<setw(10)<<item[i].shops<<'\n';
         }
       }
     }
@@ -39,7 +41,8 @@ void search (vector<item> &item)
       {
         if (item[i].flag == "in-stock")
         {
-          cout<<item[i].name<<"     "<<item[i].flag<<"     "<<item[i].stock<<"     "<<item[i].price<<"     "<<item[i].shops<<'\n';
+          cout<<left;
+          cout<<setw(10)<<item[i].name<<setw(20)<<item[i].flag<<setw(5)<<item[i].stock<<setw(5)<<item[i].price<<setw(10)<<item[i].shops<<'\n';
         }
       }
     }
