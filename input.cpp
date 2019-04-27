@@ -9,7 +9,7 @@ using namespace std;
 void get_item_list (string filename, vector<item> &items)
 {
   ifstream fin;
-  fin.open(filename);
+  fin.open(filename.c_str());
   string line;
   if (fin.fail()){     //Force quit the program if it fails.
     cout<<"Failed to open "<<filename<<"\nShutting system down.\n";
