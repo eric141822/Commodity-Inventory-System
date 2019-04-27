@@ -19,7 +19,7 @@ void get_item_list (string filename, vector<item> &items)
   int stock, i = 0, soldout;
   double price;
   item temp;
-  while (fin>>name>>flag>>stock>>price>>shops>>soldout){. //Read until eof.
+  while (fin>>name>>flag>>stock>>price>>shops>>soldout){  //Read until eof.
     temp.name = name;
     temp.flag = flag;
     temp.stock = stock;
