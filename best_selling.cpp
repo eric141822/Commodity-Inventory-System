@@ -30,7 +30,7 @@ void policy (vector<item> &item)
     third--;
   }
   for (int i = 0; i<item.size(); i++){     //We then list out the top selling items.
-    if (item[i].soldout == first){.        //Note that there may be 2 No.1 best selling items.
+    if (item[i].soldout == first){         //Note that there may be 2 No.1 best selling items.
       cout<<"No.1 Best-selling item: "<<item[i].name<<'\n';
     }
   }
